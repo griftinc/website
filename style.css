@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  text-align: left;
+  font-family: "Kanit", sans-serif;
+  max-width: 1200px;
+  margin: auto;
+  font-size: 24px;
+
+  --primary-color: #082653;
+  --neutral-color: #ffffff;
+}
+
+.logo {
+  float: left;
+  height: 90px;
+  width: 130px;
+  font-size: 48px;
+  background-color: var(--primary-color);
+  color: var(--neutral-color);
+  font-weight: bold;
+  text-align: left;
+  line-height: 48px;
+  padding: 10px;
+  padding-top: 50px;
+}
+
+.heading {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 75px;
+  text-align: left;
+  padding-left: 190px;
+}
+
+.header {
+  width: 500px;
+  margin: auto;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    float: none;
+    margin: auto;
+  }
+
+  .header {
+    width: 320px;
+    text-align: center;
+  }
+
+  .heading {
+    padding-left: 0px;
+    text-align: center;
+  }
+}
+
+section {
+  margin: auto;
+  margin-top: 40vh;
+  margin-bottom: 40vh;
+  width: 50%;
+  min-width: 320px;
+}
+
+section.wide {
+  width: 70%;
+  min-width: 320px;
+}
+
+section.narrow {
+  width: 40%;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.bio {
+  clear: both;
+  padding-bottom: 80px;
+  font-size: 24px;
+}
+
+.bio .name {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.bio p {
+  padding-left: calc(20% + 30px);
+}
+
+.bio.right p {
+  padding-left: 0px;
+  padding-right: calc(20% + 30px);
+}
+
+.bio.right {
+  text-align: right;
+}
+
+.bio img {
+  max-width: 250px;
+  min-width: 50px;
+  float: left;
+  width: 20%;
+}
+
+.bio.right img {
+  float: right;
+}
+
+.button {
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 36px;
+  background-color: var(--primary-color);
+  display: inline-block;
+  margin: auto;
+}
+
+.button a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--neutral-color);
+}
