@@ -27,10 +27,10 @@ body {
 
 .heading {
   font-size: 48px;
-  font-weight: bold;
+  font-weight: 500;
   line-height: 75px;
   text-align: left;
-  padding-left: 190px;
+  padding-left: 210px;
 }
 
 .header {
